@@ -1,0 +1,325 @@
+{
+   "date": "2024-09-26",
+   "version": "1.0",
+
+    "amiga1200": {
+        "name": "Amiga 1200",
+        "Folder": "Amiga 1200",
+        "biosFiles": [
+            {"adler32Checksum": "162646DD","file": "amiga/kick39106.A1200","MD5": "b7cc148386aa631136f510cd29e42fc3"},
+            {"adler32Checksum": "432100F9","file": "amiga/kick40068.A1200","MD5": "646773759326fbac3b2311fd8c8793ee"},            
+            {"adler32Checksum": "941B5D53","file": "amiga/kick40068.A4000","MD5": "9bdedde6a4f33555b4a270c8ca53297d"}
+        ]
+    },
+    "amiga500": {
+        "name": "Amiga 500",
+        "Folder": "Amiga 500",
+        "biosFiles": [
+            {"adler32Checksum": "0D4F3D01","file": "amiga/kick33180.A500","MD5": "85ad74194e87c08904327de1a9443b7a"},
+            {"adler32Checksum": "76E6CA0D","file": "amiga/kick37175.A500","MD5": "dc10d7bdd1b6f450773dfb558477c230"},
+            {"adler32Checksum": "140442ED","file": "amiga/kick34005.A500","MD5": "82a21c1890cae844b3df741f2762d48d"},
+            {"adler32Checksum": "33F1BB5A","file": "amiga/kick37350.A600","MD5": "465646c9b6729f77eea5314d1f057951"},
+            {"adler32Checksum": "2C20F9F1","file": "amiga/kick40063.A600","MD5": "e40a5dfb3d017ba8779faba30cbd1c8e"}
+        ]
+    },
+    "amigacd32": {
+        "name": "Amiga CD32",
+        "Folder": "Amiga CD32",
+        "biosFiles": [
+            {"adler32Checksum": "927C7279","file": "amiga/kick40060.CD32","MD5": "5f8924d013dd57a89cf349f4cdedc6b1"},
+            {"adler32Checksum": "214CD39F","file": "amiga/kick40060.CD32.ext","MD5": "bb72565701b1b6faece07d68ea5da639"}
+        ]
+    },
+    "amigacdtv": {
+        "name": "Amiga CDTV",
+        "Folder": "Amiga CDTV",
+        "biosFiles": [
+            {"adler32Checksum": "140442ED","file": "amiga/kick34005.A500","MD5": "82a21c1890cae844b3df741f2762d48d"},
+            {"adler32Checksum": "8D73BB29","file": "amiga/kick34005.CDTV","MD5": "89da1838a24460e4b93f4f0c5d92d48d"}
+        ]
+    },
+    "atari5200": {
+        "name": "Atari 5200",
+        "Folder": "Atari 5200",
+        "biosFiles": [
+            {"adler32Checksum": "BF374B77","file": "5200.rom","MD5": "281f20ea4320404ec820fb7ec0693b38"},
+            {"adler32Checksum": "00F701BF","file": "ATARIXL.ROM","MD5": "06daac977823773a3eea3422fd26a703"},
+            {"adler32Checksum": "6448439C","file": "ATARIBAS.ROM","MD5": "0bac0c6a50104045d902df4503a4c30b"},
+            {"adler32Checksum": "5DFF64CC","file": "ATARIOSA.ROM","MD5": "eb1f32f5d9f382db1bbfb8d7f9cb343a"},
+            {"adler32Checksum": "D4A65982","file": "ATARIOSB.ROM","MD5": "a3e8d617c95d08031fe1b20d541434b2"}
+        ]
+    },
+    "lynx": {
+        "name": "Atari Lynx",
+        "Folder": "Lynx",
+        "biosFiles": [
+            {"adler32Checksum": "E6ADEA85","file": "lynxboot.img","MD5": "fcd403db69f54290b51035d82f835e7b"}
+        ]
+    },
+    "atarist": {
+        "name": "Atari ST",
+        "Folder": "Atari ST",
+        "biosFiles": [
+            {"adler32Checksum": "BEB722F6","file": "tos.img","MD5": "c1c57ce48e8ee4135885cee9e63a68a2"}
+        ]
+    },
+    "atomiswave": {
+        "name": "Atomiswave",
+        "Folder": "Atomiswave",
+        "biosFiles": [
+            {"adler32Checksum": "2167EB53","file": "dc/awbios.zip","MD5": "85254fbe320ca82a768ec2c26bb08def"}
+        ]
+    },
+    "dreamcast": {
+        "name": "Dreamcast",
+        "Folder": "Dreamcast",
+        "biosFiles": [
+            {"adler32Checksum": "4B040511","file": "dc_boot.bin","MD5": "e10c53c2f8b90bab96ead2d368858623"},
+            {"adler32Checksum": "A4C39734","file": "dc_flash.bin","MD5": "0a93f7940c455905bea6e392dfde92a4"}
+        ]
+    },
+    "channelf": {
+        "name": "Fairchild ChannelF",
+        "Folder": "Fairchild ChannelF",
+        "biosFiles": [
+            {"adler32Checksum": "2ADB1A50","file": "sl31253.bin","MD5": "ac9804d4c0e9d07e33472e3726ed15c3"},
+            {"adler32Checksum": "D61933AA","file": "sl31254.bin","MD5": "da98f4bb3242ab80d76629021bb27585"},
+            {"adler32Checksum": "2FEC1A52","file": "sl90025.bin","MD5": "95d339631d867c8f1d15a5f2ec26069d"}
+        ]
+    },
+    "vectrex": {
+        "name": "GCE Vectrex",
+        "Folder": "GCE Vectrex",
+        "biosFiles": [
+            {"adler32Checksum": "DEF2F57E","file": "vectrex.zip","MD5": "a0f182f72a0e98e9be3f957043a40728"}
+        ]
+    },
+    "intellivision": {
+        "name": "Mattel Intellivision",
+        "Folder": "Mattel Intellivision",
+        "biosFiles": [
+            {"adler32Checksum": "C2EEB203","file": "exec.bin","MD5": "62e761035cb657903761800f4437b8af"},
+            {"adler32Checksum": "E777B8BA","file": "grom.bin","MD5": "0cd5946c6473e42e8e4c2137785e427f"}
+        ]
+    },
+    "msu-md": {
+        "name": "MSU-MD",
+        "Folder": "MSU-MD",
+        "biosFiles": [
+            {"adler32Checksum": "85969A0C","file": "bios_CD_E.bin","MD5": "e66fa1dc5820d254611fdcdba0662372"},
+            {"adler32Checksum": "580765A2","file": "bios_CD_U.bin","MD5": "854b9150240a198070150e4566ae1290"},
+            {"adler32Checksum": "9452D9FA","file": "bios_CD_J.bin","MD5": "278a9397d192149e84e820ac621a8edd"}
+        ]
+    },
+    "msx": {
+        "name": "MSX",
+        "Folder": "MSX",
+        "biosFiles": [
+            {"adler32Checksum": "0E7344DB","file": "MSX.ROM","MD5": "364a1a579fe5cb8dba54519bcfcdac0d"}
+        ]
+    },
+    "msx1": {
+        "name": "MSX LaserDisc",
+        "Folder": "MSX LaserDisc",
+        "biosFiles": [
+            {"adler32Checksum": "F5611FE1","file": "openmsx/px-7_pbasic.rom","MD5": "281809cafe63437fc4bffb3033fbd0db"},
+            {"adler32Checksum": "F645E1BF","file": "openmsx/px-7_basic-bios1.rom","MD5": "9218f6dd89f7ba01e3090d44721b4260"}
+        ]
+    },
+    "msxturbor": {
+        "name": "MSX-Turbo",
+        "Folder": "MSX-Turbo",
+        "biosFiles": [
+            {"adler32Checksum": "65ADD739","file": "openmsx/fs-a1gt_firmware.rom","MD5": "af17a344bcc177b97a4888c4c559f3ae"},
+            {"adler32Checksum": "79763A25","file": "openmsx/fs-a1gt_kanjifont.rom","MD5": "acf53887c2d2783dc059a9b442c86b90"},
+            {"adler32Checksum": "40B17241","file": "openmsx/ide250.zip","MD5": "afa4b5f2944334f84971af814a24bd5a"},
+            {"adler32Checksum": "3E6F7E57","file": "openmsx/phc-70fd2_basickun.rom","MD5": "2ce20986da024e9a0e271961c6bc9f01"},
+            {"adler32Checksum": "ABADCBEF","file": "openmsx/yrw801.rom","MD5": "42af93619160ef2116416f74a6cb12f2"}
+        ]
+    },
+    "msx2": {
+        "name": "MSX2",
+        "Folder": "MSX2",
+        "biosFiles": [
+            {"adler32Checksum": "270C8599","file": "MSX2.ROM","MD5": "ec3a01c91f24fbddcbcab0ad301bc9ef"},
+            {"adler32Checksum": "FBA6D142","file": "MSX2EXT.ROM","MD5": "2183c2aff17cf4297bdb496de78c2e8a"}
+        ]
+    },
+    "msx2+": {
+        "name": "MSX2+",
+        "Folder": "MSX2+",
+        "biosFiles": [
+            {"adler32Checksum": "79763A25","file": "openmsx/fs-a1wsx_kanjifont.rom","MD5": "acf53887c2d2783dc059a9b442c86b90"},
+            {"adler32Checksum": "9DF89D0E","file": "openmsx/fs-a1wsx_basic-bios2p.rom","MD5": "c5c26c3e8bc6c485424818057f0507b9"},
+            {"adler32Checksum": "76597BBE","file": "openmsx/fs-a1wsx_fmbasic.rom","MD5": "0c40e7db1c1fcc2405e4d0cdd215adb4"},
+            {"adler32Checksum": "DBC99BD5","file": "openmsx/fs-a1wsx_msx2psub.rom","MD5": "7c8243c71d8f143b2531f01afa6a05dc"},
+            {"adler32Checksum": "27324B4B","file": "openmsx/fs-a1wsx_kanjibasic.rom","MD5": "9dfdebfaa6b547222a40aab8bb2e29f8"},
+            {"adler32Checksum": "D1E9DDCE","file": "openmsx/fs-a1wsx_disk.rom","MD5": "00aa02b6077de40a0b51d71a3c3e1d5f"},
+            {"adler32Checksum": "00F2C772","file": "openmsx/fs-a1wsx_firmware.rom","MD5": "fa8e7d4b999af058fe2864a5f2e014ec"},
+            {"adler32Checksum": "3E6F7E57","file": "openmsx/phc-70fd2_basickun.rom","MD5": "2ce20986da024e9a0e271961c6bc9f01"},
+            {"adler32Checksum": "ABADCBEF","file": "openmsx/yrw801.rom","MD5": "42af93619160ef2116416f74a6cb12f2"}
+        ]
+    },
+    "naomi": {
+        "name": "Naomi",
+        "Folder": "Naomi",
+        "biosFiles": [
+            {"adler32Checksum": "51F24911","file": "dc/naomi.zip","MD5": "eb4099aeb42ef089cfe94f8fe95e51f6"}
+        ]
+    },
+    "naomi2": {
+        "name": "Naomi 2",
+        "Folder": "Naomi 2",
+        "biosFiles": [
+            {"adler32Checksum": "77E9BE90","file": "dc/naomi2.zip","MD5": "843c0d51237dc945f57237c4b9872b1d"}
+        ]
+    },
+    "pc88": {
+        "name": "NEC PC-8800",
+        "Folder": "NEC PC-8800",
+        "biosFiles": [
+            {"adler32Checksum": "5857F087","file": "quasi88/N88.ROM","MD5": "4f984e04a99d56c4cfe36115415d6eb8"},
+            {"adler32Checksum": "EA9195C4","file": "quasi88/N88SUB.ROM","MD5": "793f86784e5608352a5d7f03f03e0858"},
+            {"adler32Checksum": "6E0F0B5E","file": "quasi88/N88N.ROM","MD5": "2ff07b8769367321128e03924af668a0"},
+            {"adler32Checksum": "D4E50E5A","file": "quasi88/N88KNJ1.ROM","MD5": "d81c6d5d7ad1a4bbbd6ae22a01257603"},
+            {"adler32Checksum": "D9CD1756","file": "quasi88/N88EXT0.ROM","MD5": "d675a2ca186c6efcd6277b835de4c7e5"},
+            {"adler32Checksum": "86E420BF","file": "quasi88/N88EXT1.ROM","MD5": "e844534dfe5744b381444dbe61ef1b66"},
+            {"adler32Checksum": "FF829C7E","file": "quasi88/N88EXT2.ROM","MD5": "6548fa45061274dee1ea8ae1e9e93910"},
+            {"adler32Checksum": "602868BB","file": "quasi88/N88EXT3.ROM","MD5": "fc4b76a402ba501e6ba6de4b3e8b4273"}
+        ]
+    },
+    "pc98": {
+        "name": "NEC PC-9800",
+        "Folder": "NEC PC-9800",
+        "biosFiles": [
+            {"adler32Checksum": "70B90F34","file": "np2kai/BIOS.ROM","MD5": "e246140dec5124c5e404869a84caefce"},
+            {"adler32Checksum": "CA684A31","file": "np2kai/FONT.ROM","MD5": "2af6179d7de4893ea0b705c00e9a98d6"},
+            {"adler32Checksum": "0292BB8F","file": "np2kai/SOUND.ROM","MD5": "caf90f22197aed6f14c471c21e64658d"},
+            {"adler32Checksum": "D0A7911D","file": "np2kai/ITF.ROM","MD5": "e9fc3890963b12cf15d0a2eea5815b72"},
+            {"adler32Checksum": "FE36A491","file": "np2kai/font.bmp","MD5": "7da1e5b7c482d4108d22a5b09631d967"}
+        ]
+    },
+    "neogeo": {
+        "name": "NeoGeo",
+        "Folder": "NeoGeo",
+        "biosFiles": [
+            {"adler32Checksum": "CE6883B2","file": "neogeo.zip","MD5": "dffb72f116d36d025068b23970a4f6df"}
+        ]
+    },
+    "neogeocd": {
+        "name": "NeoGeo CD",
+        "Folder": "NeoGeo CD",
+        "biosFiles": [
+            {"adler32Checksum": "DE8DE439","file": "neocd/neocd_f.rom","MD5": "8834880c33164ccbe6476b559f3e37de"},
+            {"adler32Checksum": "FC222CA8","file": "neocd/neocd_sf.rom","MD5": "043d76d5f0ef836500700c34faef774d"},
+            {"adler32Checksum": "88A9F13E","file": "neocd/neocd_t.rom","MD5": "de3cf45d227ad44645b22aa83b49f450"},
+            {"adler32Checksum": "EC8B376D","file": "neocd/neocd_st.rom","MD5": "f6325a33c6d63ea4b9162a3fa8c32727"},
+            {"adler32Checksum": "7AE71F11","file": "neocd/neocd_z.rom","MD5": "11526d58d4c524daef7d5d677dc6b004"},
+            {"adler32Checksum": "35D31E79","file": "neocd/neocd_sz.rom","MD5": "971ee8a36fb72da57aed01758f0a37f5"},
+            {"adler32Checksum": "03E4E439","file": "neocd/front-sp1.bin","MD5": "5c2366f25ff92d71788468ca492ebeca"},
+            {"adler32Checksum": "6788F13E","file": "neocd/top-sp1.bin","MD5": "122aee210324c72e8a11116e6ef9c0d0"},
+            {"adler32Checksum": "D6561F11","file": "neocd/neocd.bin","MD5": "f39572af7584cb5b3f70ae8cc848aba2"},
+            {"adler32Checksum": "A2E2F6EC","file": "neocd/uni-bioscd.rom","MD5": "08ca8b2dba6662e8024f9e789711c6fc"}
+        ]
+    },
+    "nds": {
+        "name": "Nintendo DS",
+        "Folder": "Nintendo DS",
+        "biosFiles": [
+            {"adler32Checksum": "0CC93681","file": "firmware.bin","MD5": "4db10164021478e41eca59dd056ee15f"},
+            {"adler32Checksum": "C773ECB3","file": "bios7.bin","MD5": "df692a80a5b1bc90728bc3dfc76cd948"},
+            {"adler32Checksum": "B50DB640","file": "bios9.bin","MD5": "a392174eb3e572fed6447e956bde4b25"},
+            {"adler32Checksum": "692960D9","file": "dsi_bios7.bin","MD5": "559dae4ea78eb9d67702c56c1d791e81"},
+            {"adler32Checksum": "3F138DD8","file": "dsi_bios9.bin","MD5": "87b665fce118f76251271c3732532777"},
+            {"adler32Checksum": "CE76771F","file": "dsi_firmware.bin","MD5": "d6b7664ffdc1cffdb1d3560988ecbf8a"},
+            {"adler32Checksum": "3B3E7D56","file": "dsi_nand.bin","MD5": "dfafb1908da8f527df7a372e649b50be"}
+        ]
+    },
+    "fds": {
+        "name": "Nintendo Family Computer Disk System",
+        "Folder": "Nintendo Family Computer Disk System",
+        "biosFiles": [
+            {"adler32Checksum": "9F98AAC7","file": "disksys.rom","MD5": "ca30b50f880eb660a320674ed365ef7a"}
+        ]
+    },
+    "gba": {
+        "name": "Nintendo Gameboy Advance",
+        "Folder": "Nintendo Gameboy Advance",
+        "biosFiles": [
+            {"adler32Checksum": "8483F3A3","file": "gba_bios.bin","MD5": "a860e8c0b6d573d191e4ec7db1b1e4f6"},
+            {"adler32Checksum": "EE57626F","file": "gb_bios.bin","MD5": "32fbbd84168d3482956eb3c5051637f5"},
+            {"adler32Checksum": "DCFAF409","file": "gbc_bios.bin","MD5": "dbfce9db9deaa2567f6a84fde55f9680"},
+            {"adler32Checksum": "9A7558F4","file": "sgb_bios.bin","MD5": "d574d4f9c12f305074798f54c091a8b4"}
+        ]
+    },
+    "pcengine": {
+        "name": "PC Engine",
+        "Folder": "PC Engine",
+        "biosFiles": [
+            {"adler32Checksum": "1BC9F59F","file": "syscard3.pce","MD5": "38179df8f4ac870017db21ebcbf53114"}
+        ]
+    },
+    "pcfx": {
+        "name": "PC-FX",
+        "Folder": "PC-FX",
+        "biosFiles": [
+            {"adler32Checksum": "7EF9F84E","file": "pcfx.rom","MD5": "08e36edbea28a017f79f8d4f7ff9b6d7"}
+        ]
+    },
+    "cdi": {
+        "name": "Phillips CD-i",
+        "Folder": "Phillips CD-i",
+        "biosFiles": [
+            {"adler32Checksum": "C27D69AC","file": "cdimono1.zip","MD5": "c59f92647701428bc453976740eb75cf"},
+            {"adler32Checksum": "C27D69AC","file": "cdimono1.zip","MD5": "c59f92647701428bc453976740eb75cf"}
+        ]
+    },
+    "psx": {
+        "name": "PSX",
+        "Folder": "PSX",
+        "biosFiles": [
+            {"adler32Checksum": "914377DC","file": "psxonpsp660.bin","MD5": "c53ca5908936d412331790f4426c6c33"},
+            {"adler32Checksum": "7DE956A4","file": "scph101.bin","MD5": "6e3735ff4c7dc899ee98981385f6f3d0"},
+            {"adler32Checksum": "560E2DA1","file": "scph1001.bin","MD5": "dc2b9bf8da62ec93e868cfd29f0d067d"},
+            {"adler32Checksum": "A6CF18FE","file": "scph5500.bin","MD5": "8dd7d5296a650fac7319bce665a6a53c"},
+            {"adler32Checksum": "24E21A0E","file": "scph5501.bin","MD5": "490f666e1afb15b7362b406ed1cea246"},
+            {"adler32Checksum": "68EE15CC","file": "scph5502.bin","MD5": "32736f17079d0b2b7024407c39bd3050"},
+            {"adler32Checksum": "61E5B760","file": "scph7001.bin","MD5": "1e68c231d0896b7eadcad1d7d8e76129"}
+        ]
+    },
+    "scummvm": {
+        "name": "ScummVM",
+        "Folder": "ScummVM",
+        "biosFiles": [
+            {"adler32Checksum": "DA23D2EB","file": "scummvm/extra/MT32_PCM.ROM","MD5": "89e42e386e82e0cacb4a2704a03706ca"},
+            {"adler32Checksum": "1E07FEC4","file": "scummvm/extra/MT32_CONTROL.ROM","MD5": "5626206284b22c2734f3e9efefcd2675"}
+        ]
+    },
+    "saturn": {
+        "name": "Sega Saturn",
+        "Folder": "Sega Saturn",
+        "biosFiles": [
+            {"adler32Checksum": "1C6ABA86","file": "sega_101.bin","MD5": "85ec9ca47d8f6807718151cbcca8b964"},
+            {"adler32Checksum": "5F398EFC","file": "mpr-17933.bin","MD5": "3240872c70984b6cbfda1586cab68dbe"},
+            {"adler32Checksum": "ED72611C","file": "mpr-18811-mx.ic1","MD5": "255113ba943c92a54facd25a10fd780c"},
+            {"adler32Checksum": "FF3505E1","file": "mpr-19367-mx.ic1","MD5": "1cd19988d1d72a3e7caa0b73234c96b4"},
+            {"adler32Checksum": "8B0EF002","file": "saturn_bios.bin","MD5": "af5828fdff51384f99b3c4926be27762"}
+        ]
+    },
+    "x1": {
+        "name": "Sharp X1",
+        "Folder": "Sharp X1",
+        "biosFiles": [
+            {"adler32Checksum": "E3F33906","file": "xmil/IPLROM.X1","MD5": "eeeea1cd29c6e0e8b094790ae969bfa7"},
+            {"adler32Checksum": "7AF8F6BB","file": "xmil/iplrom.x1t","MD5": "56c28adcf1f3a2f87cf3d57c378013f5"}
+        ]
+    },
+    "x68000": {
+        "name": "Sharp x68000",
+        "Folder": "Sharp x68000",
+        "biosFiles": [
+            {"adler32Checksum": "85BB8AA2","file": "keropi/iplrom.dat","MD5": "7fd4caabac1d9169e289f0f7bbf71d8e"},
+            {"adler32Checksum": "322666A7","file": "keropi/cgrom.dat","MD5": "cb0a5cfcf7247a7eab74bb2716260269"}
+        ]
+    }
+}
