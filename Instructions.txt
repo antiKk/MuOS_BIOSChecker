@@ -1,9 +1,0 @@
-Copy:
-bioschecker.sh to /mnt/mmc/MUOS/application
-bioschecker (folder) to /mnt/mmc/ports
-
-Run bioschecker from application menu
-Press scan to scan the BIOS from your system.
-The BIOS folder is located: /mnt/mmc/MUOS/bios
-
-The BIOS package is based on: BATOCERA-V40
