@@ -37,9 +37,12 @@ local logFilePath
 
 local scanning = require("scanning")
 
+-- muOS Variables
+local appPath = "/mnt/mmc/MUOS/application/.bioschecker/"
+
 -- Log file path
-logFilePath = "/mnt/mmc/ports/bioschecker/program/debuglog.txt"
-shortenedUrlPath = "/mnt/mmc/ports/bioschecker/SaveResult/shortenedUrl.txt"
+logFilePath = appPath .. "program/debuglog.txt"
+shortenedUrlPath = appPath .. "SaveResult/shortenedUrl.txt"
 
 -- Function to log messages to the debug file
 local function logDebug(message)
@@ -118,11 +121,11 @@ local updateMessage = "" -- Variable to store the message
 function Check_For_Updates()
     -- Download the remote file
     local command =
-        "curl -o /mnt/mmc/ports/bioschecker/data/temp_bios_files.json http://uptothemoon.atwebpages.com/json/bios_files.json"
+        "curl -o " .. appPath .. "data/temp_bios_files.json http://uptothemoon.atwebpages.com/json/bios_files.json"
     os.execute(command)
 
     -- Read the local JSON file
-    local localJsonPath = "/mnt/mmc/ports/bioschecker/data/bios_files.json"
+    local localJsonPath = appPath .. "data/bios_files.json"
     local localJson
 
     -- Check if the local file exists
@@ -146,7 +149,7 @@ function Check_For_Updates()
     end
 
     -- Read the remote JSON file
-    local remoteJsonPath = "/mnt/mmc/ports/bioschecker/data/temp_bios_files.json"
+    local remoteJsonPath = appPath .. "data/temp_bios_files.json"
     local remoteJson
 
     file = io.open(remoteJsonPath, "r")
@@ -178,8 +181,8 @@ function Check_For_Updates()
     else
         logDebug("The JSON file is not Up-to-date.")
         -- Path to old and temporary files
-        local oldFilePath = "/mnt/mmc/ports/bioschecker/data/bios_files.json"
-        local tempFilePath = "/mnt/mmc/ports/bioschecker/data/temp_bios_files.json"
+        local oldFilePath = appPath .. "data/bios_files.json"
+        local tempFilePath = appPath .. "data/temp_bios_files.json"
 
         -- Delete the old JSON file
         local deleteOldFileResult = os.remove(oldFilePath)

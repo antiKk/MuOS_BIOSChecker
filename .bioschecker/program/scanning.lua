@@ -1,7 +1,10 @@
 -- scanning.lua
 
+-- muOS Variables
+local appPath = "/mnt/mmc/MUOS/application/.bioschecker/"
+
 -- Add the libs directory to the package path
-package.path = package.path .. ";/mnt/mmc/ports/bioschecker/libs/?.lua"
+package.path = package.path .. ";" .. appPath .. "libs/?.lua"
 
 local finishScanSound
 
@@ -11,7 +14,7 @@ local adler32 = require("adler32")
 local scanning = {}
 
 local biosDir = "/run/muos/storage/bios/"
-local jsonPath = "/mnt/mmc/ports/bioschecker/data/bios_files.json"
+local jsonPath = appPath .. "data/bios_files.json"
 local results = {}
 local progress = 0
 local totalSystems = 0
@@ -24,7 +27,7 @@ local scanningImage
 local scanningComplete = false
 
 -- Log file path
-local logFilePath = "/mnt/mmc/ports/bioschecker/program/debuglog.txt"
+local logFilePath = appPath .. "program/debuglog.txt"
 
 -- Function to write to the debug log
 local function writeDebugLog(message)
@@ -131,22 +134,16 @@ end
  --   return true -- BIOS directory found
  --end
 
--- Pre Banana Release
+-- Function to check both directories and handle empty folder cases
 local function checkBiosDir()
-    if not isDirEmpty("/mnt/sdcard/MUOS/bios/") then
-        biosDir = "/mnt/sdcard/MUOS/bios/"
-        writeDebugLog("BIOS DIR SD2 " ..biosDir)
-    elseif not isDirEmpty("/mnt/mmc/MUOS/bios/") then
-        biosDir = "/mnt/mmc/MUOS/bios/"
-        writeDebugLog("BIOS DIR SD1 " ..biosDir)
+    if not isDirEmpty(biosDir) then
+        writeDebugLog("BIOS found.")
+        return true -- BIOS directory found
     else
-        writeDebugLog("No BIOS found in both directories.")
+        writeDebugLog("No BIOS found.")
         return false -- No BIOS found
     end
-    return true -- BIOS directory found
 end
-
-
 
 -- Function to load and parse JSON
 local function loadJson(filePath)

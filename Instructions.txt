@@ -1,6 +1,7 @@
 Copy:
 bioschecker.sh to /mnt/mmc/MUOS/application
-bioschecker (folder) to /mnt/mmc/ports
+.bioschecker (folder) to /mnt/mmc/MUOS/application
+bios.png to /mnt/mmc/MUOS/theme/active/glyph/muxapp/
 
 Run bioschecker from application menu
 Press scan to scan the BIOS from your system.

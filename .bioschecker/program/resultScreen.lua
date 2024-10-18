@@ -28,9 +28,11 @@ local resultsSavedDuration = 50  -- Duration in seconds to display resultSavedIm
 local resultBackImage = love.graphics.newImage("assets/Screen_Result_Back.png")
 local currentImage = resultBackImage  -- Assuming this is the image currently displayed
 
+-- muOS Variables
+local appPath = "/mnt/mmc/MUOS/application/.bioschecker/"
 
 -- Log file path
-local logFilePath = "/mnt/mmc/ports/bioschecker/program/debuglog.txt"
+local logFilePath = appPath .. "program/debuglog.txt"
 
 -- Function to log messages to the debug log
 local function logDebug(message)
@@ -190,10 +192,10 @@ function shortenUrl(url)
     handle:close()
     
     -- Create the directory if it doesn't exist
-    os.execute("mkdir -p /mnt/mmc/ports/bioschecker/SaveResult")
+    os.execute("mkdir -p " .. appPath .. "SaveResult")
     
     -- Specify the file path
-    local filePath = "/mnt/mmc/ports/bioschecker/SaveResult/shortenedUrl.txt"
+    local filePath = appPath .. "SaveResult/shortenedUrl.txt"
     
     -- Delete the existing file if it exists
     os.remove(filePath)
@@ -354,7 +356,7 @@ function saveResultsToFile()
     -- Set the savedFilename variable
     savedFilename = randomString .. ".txt"  -- Add .txt extension
 
-    local directory = "/mnt/mmc/ports/bioschecker/SaveResult"
+    local directory = appPath .. "SaveResult"
     local filename = string.format("%s/%s", directory, savedFilename)
 
     os.execute(string.format("mkdir -p %s", directory))
