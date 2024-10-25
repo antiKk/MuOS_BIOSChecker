@@ -7,6 +7,10 @@
 
 . /opt/muos/script/var/func.sh
 
+if pgrep -f "playbgm.sh" >/dev/null; then
+	killall -q "playbgm.sh" "mpg123"
+fi
+
 echo app >/tmp/act_go
 
 # Define Paths
@@ -16,16 +20,15 @@ CONF_DIR="$LOVE_DIR/conf"
 
 # Export Environment Variables
 export SDL_GAMECONTROLLERCONFIG_FILE="/usr/lib/gamecontrollerdb.txt"
-export LD_LIBRARY_PATH="$LOVE_DIR/libs:$LD_LIBRARY_PATH"
+export XDG_DATA_HOME="$CONF_DIR"
 
 # Launch Application
 cd "$LOVE_DIR" || exit
-
 SET_VAR "system" "foreground_process" "love"
+export LD_LIBRARY_PATH="$LOVE_DIR/libs:$LD_LIBRARY_PATH"
 
-$GPTOKEYB "$LOVE_DIR/love" -c "$CONF_DIR/love.gptk" &
+$GPTOKEYB "love" -c "$CONF_DIR/love.gptk" &
 ./love ./program
 
 # Cleanup
-kill -9 $(pidof gptokeyb2)
-kill -9 $(pidof love)
+kill -9 "$(pidof gptokeyb2)"
